@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+span{
+    color: #E95A08;
+}
+nav ul li:first-child{
+        font-size: 18px;
+    font-weight: 800;
+    color: black;
+}
+
+nav ul li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+nav ul li i {
+    color: black;
+    font-size: 21px;
+    font-weight: 800;
+}
+nav ul li i{
+    margin-right: 10px;
+}
+
+
+
+nav ul li a span{
+    margin-right: 10px;
+}
+
+
+
+
+#banner{
+    width: 100%;
+    height: 80vh;
+    padding-top: 6.6vw;
+}
+
+.banner-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-main .left-side{
+    width: 50%;
+}
+
+.banner-main .left-side h1{
+      font-family: "Noto Serif", serif;
+    font-size: 5.1vw;
+    font-weight: 600;
+}
+
+.banner-main .left-side h1 span{
+    color:#E95A08 ;
+}
+.banner-main .left-side p{
+    font-family: "Inter", sans-serif;
+    color: #464646;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+.banner-main .right-side{
+    width: 50%;
+}
+
+.banner-main .right-side img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#plant{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.plant-main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1.5vw;
+    grid-row-gap: 2.4vw;
+    text-align: center;
+}
+
+.plant-main .card img{
+    width: 100%;
+}
+
+.plant-main .card h3{
+    font-family: "Inter", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 1.1vw;
+}
+.plant-main .card h5{
+    font-family: "Inter", sans-serif;
+    font-size: 1.1vw;
+    font-weight: 700;
+    margin-top: .5vw;
+}
+
+.plant-main .card button{
+    width: 100%;
+    background-color: #E95A08;
+    font-size: .9vw;
+    font-weight: 600;
+    border: none;
+    padding: .6vw;
+    text-transform: uppercase;
+    margin-top: .7vw;
+}
+
+
