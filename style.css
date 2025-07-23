@@ -6,8 +6,8 @@
 
 
 body{
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
 }
 
 span{
@@ -89,6 +89,8 @@ nav ul li a span{
 #plant{
     width: 100%;
     min-height: 100vh;
+    padding-top: 2vw;
+    text-align: center;
 }
 
 .plant-main{
@@ -99,7 +101,19 @@ nav ul li a span{
     grid-row-gap: 2.4vw;
     text-align: center;
 }
+#plant h1{
+    font-size: 4vw;
+    text-transform: capitalize;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
 
+#plant p{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 3vw;
+}
 .plant-main .card img{
     width: 100%;
 }
@@ -120,6 +134,7 @@ nav ul li a span{
 .plant-main .card button{
     width: 100%;
     background-color: #E95A08;
+    color: white;
     font-size: .9vw;
     font-weight: 600;
     border: none;
@@ -128,4 +143,66 @@ nav ul li a span{
     margin-top: .7vw;
 }
 
+
+#store{
+    width: 100%;
+    height: 100vh;
+    padding-top: 14vw;
+}
+
+.store-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+.store-left{
+    width: 50%;
+    position: relative;
+}
+
+.store-left .badge {
+    position: absolute;
+    top: -8vw;
+    right: -8vw;
+    width: 55%;
+}
+.store-left img{
+    width: 100%;
+}
+
+.store-right{
+    width: 50%;
+}
+
+.store-right .store-content{
+    width: 100%;
+}
+.store-right h1{
+    font-family: "Noto Serif", serif;
+    font-size: 3.4vw;
+    line-height: 3.9vw;
+    font-weight: 700;
+}
+
+.store-right .store-content ul{
+    text-align: justify;
+      list-style-type: disc;
+      padding-left: 2.5vw;
+      padding-top: 1vw;
+}
+
+.store-right .store-content li::marker{
+    width: 20px;
+    height: 20px;
+    color: #E95A08;
+}
+
+.store-right .store-content ul li{
+     display: list-item;
+     font-size: 1.2vw;
+    font-family: "Inter", sans-serif;
+
+}
 
