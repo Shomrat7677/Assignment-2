@@ -43,10 +43,10 @@ nav ul li a span{
 
 
 
-#banner{
+#banner {
     width: 100%;
-    height: 80vh;
-    padding-top: 6.6vw;
+    height: 82vh;
+    padding-top: 15vw;
 }
 
 .banner-main{
@@ -85,13 +85,12 @@ nav ul li a span{
 }
 
 
-#plant{
+#plant {
     width: 100%;
     min-height: 100vh;
-    padding-top: 2vw;
+    padding-top: 9vw;
     text-align: center;
 }
-
 .plant-main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -331,6 +330,7 @@ nav ul li a span{
     font-family: "Noto Serif", serif;
     color: white;
     font-weight: 600;
+    margin-bottom: 1.6vw;
 }
 
 .input-box {
@@ -360,4 +360,46 @@ nav ul li a span{
   font-size: 1vw;
     font-family: "Inter", sans-serif;
     font-weight: 500;
+}
+
+
+footer{
+    width: 100%;
+    height: 40vh;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    height: 100%;
+    padding-top: 5vw;
+}
+
+.footer-logo img{
+    width: 30%;
+    margin-bottom: 1vw;
+}
+
+.footer-logo p{
+    font-size: 1.6vw;
+    color: #6b6b6b;
+}
+
+.footer-menu-1 ul li{
+    margin-bottom: 1.4vw;
+    font-size: 1.1vw;
+    color: #464646;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 1.3vw;
+}
+
+.social-media img{
+    width: 100%;
+    height: 100%;
 }
