@@ -6,8 +6,7 @@
 
 
 body{
-    /* background-color: black;
-    color: white; */
+    background-color: #f5f5f5;
 }
 
 span{
@@ -109,7 +108,8 @@ nav ul li a span{
 }
 
 #plant p{
-    font-size: 24px;
+    font-size: 1.6vw;
+    color: #464646;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     margin-bottom: 3vw;
@@ -143,13 +143,11 @@ nav ul li a span{
     margin-top: .7vw;
 }
 
-
-#store{
+#store {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 14vw;
 }
-
 .store-main{
     display: flex;
     justify-content: space-between;
@@ -206,3 +204,160 @@ nav ul li a span{
 
 }
 
+
+
+#deal{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 7vw;
+    padding-bottom: 9vw;
+}
+
+
+#deal h1{
+    font-size: 3vw;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    margin-bottom: 1.5vw;
+}
+#deal p{
+    font-size: 1.6vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 7vw;
+    color: #464646;
+}
+
+
+.deal-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deal-main img{
+    border-radius: 30px;
+}
+.deal-main .deal-right {
+    width: 65.5%;
+}
+.deal-right img{
+    width: 150%;
+}
+
+.deal-main .deal-left{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.deal-card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: #E95A08; */
+}
+.deal-left img{
+    width: 100%;
+    /* height: 100%; */
+}
+ .overflow{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #03030380;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    /* padding-top: 5.5vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overflow h2{
+    font-weight: 700;
+    font-size: 1.5vw;
+        font-family: "Noto Serif", serif;
+
+}
+.deal-right .overflow h2{
+    font-weight: 700;
+    font-size: 2.5vw;
+        font-family: "Inter", sans-serif;
+
+
+}
+
+.overflow a{
+    text-decoration: underline;
+        font-weight: 600;
+    font-size: 1vw;
+    font-family: "Inter", sans-serif;
+
+}
+.deal-right .overflow a{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 1.5vw;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+#contact{
+    width: 100%;
+    height: 70vh;
+    background-image: url(Image/news-letter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-main {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+}
+
+.contact-main h1{
+    font-size: 3.5vw;
+    font-family: "Noto Serif", serif;
+    color: white;
+    font-weight: 600;
+}
+
+.input-box {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.input-box input {
+  padding: 10px;
+  width: 40vw;
+  height: 3vw;
+  max-width: 80vw; 
+  border: none;
+  outline: none;
+}
+.input-box input::placeholder{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.input-box button {
+  padding: 1.5px 2.5vw;
+  cursor: pointer;
+  background-color: #E95A08;
+  color: white;
+  font-size: 1vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
