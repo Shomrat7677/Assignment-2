@@ -1,4 +1,8 @@
 @media (max-width: 480px){
+    body{
+        /* padding: 2vw 3.7vw; */
+
+    }
     nav{
         padding: 2vw 3.7vw;
     }
@@ -16,10 +20,11 @@
     }
     .banner-main{
         flex-direction: column-reverse; 
-        padding: 2vw 3.7vw;
+        /* padding: 2vw 3.7vw; */
 
     }
     .banner-main .right-side{
+        
     width: 100%;
     }
     .banner-main .right-side img{
@@ -29,6 +34,8 @@
     }
     .banner-main .left-side{
         width: 100%;
+        padding: 2vw 3.7vw;
+
     }
     .banner-main .left-side h1{
         width: 70%;
@@ -39,5 +46,136 @@
         font-size: 2vh;
         line-height: 2.7vh;
     }
-    
+    #plant {
+    padding-top: 18vw;
+    }
+    #plant h1 {
+    font-size: 6vw;
+    text-transform: capitalize;
+    }
+    #plant p {
+    font-size: 21px;
+    }
+
+    .plant-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+    padding: 2vw 3.7vw;
+    }
+
+    .plant-main .card h3 {
+    font-size: 4.2vw;
+    margin-top: 3vh;
+    }
+
+    .plant-main .card h5 {
+    font-size: 3.6vw;
+    margin-top: .6vh;
+    }
+
+    .plant-main .card button {
+    font-size: 4.5vw;
+    border: none;
+    padding: 2.6vw;
+    margin-top: 3vh;
+    }
+
+    .store-main {
+    flex-direction: column;
+    padding: 2vw 3.7vw;
+    }
+
+    .store-left {
+        width: 100%;
+        position: relative;
+    }
+    .store-left .badge {
+        display: none;
+    }
+    .store-right {
+    width: 100%;
+    }
+
+    .store-right h1 {
+    font-size: 3.4vh;
+    line-height: 3.9vh;
+    }
+    .store-right .store-content ul {
+    padding-left: 3.5vh;
+    padding-top: 1vh;
+}
+
+    .store-right .store-content ul li {
+    font-size: 3.2vw;
+    }
+
+    #deal h1 {
+    font-size: 7vw;
+    }
+
+    #deal p {
+    font-size: 20.5px;
+    }
+
+    .deal-main {
+    flex-direction: column;
+    padding: 2vw 3.7vw;
+    }
+
+    .deal-main .deal-left {
+    width: 100%;    
+    }
+    .deal-main .deal-right {
+    width: 100%;  
+    margin-top: 3.5vh;  
+    }
+
+    .overflow h2 {
+    font-size: 4.5vw;;
+    }
+
+    .overflow a {
+    font-size: 3.4vw;
+    }
+
+    .deal-right .overflow h2 {
+    font-size: 4.5vw;
+    }
+
+    .deal-right .overflow a {
+    font-size: 3.5vw;
+    }
+
+    #contact {
+    height: 25vh;
+    }
+
+    .contact-main h1 {
+    font-size: 5vw;
+    margin-bottom: 5vw;
+    }
+
+    .input-box input {
+    padding: 6vw;
+    width: 60vw;
+    height: 3vw;
+    max-width: 80vw;
+    border: none;
+    outline: none;
+}
+    .input-box input::placeholder {
+        font-size: 5vw;
+        text-align: start;
+        padding: vw 7vw;
+    }
+
+    .input-box button {
+  font-size: 4vw;
+}
+
+
+
 }
