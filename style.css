@@ -181,10 +181,10 @@ nav ul li a span{
 .store-right .store-content{
     width: 100%;
 }
-.store-right h1{
+.store-right h1 {
     font-family: "Noto Serif", serif;
     font-size: 3.4vw;
-    width: 70%;
+    width: 85%;
     line-height: 3.9vw;
     font-weight: 700;
 }
@@ -205,7 +205,7 @@ nav ul li a span{
 .store-right .store-content ul li {
     display: list-item;
     width: 100%;
-    font-size: 1.66vw;
+    font-size: 1.458vw;
     font-family: "Inter", sans-serif;
     margin-top: 1.66vw;
 }
