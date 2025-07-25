@@ -46,7 +46,7 @@
 
     .banner-main .left-side h1 {
         width: 70%;
-        font-size: 4vh;
+        font-size: 3.5vh;
     }
 
     .banner-main .left-side p {
@@ -122,17 +122,17 @@
     }
 
     .store-right .store-content ul {
-        padding-left: 3.5vh;
+        padding-left: 3.6vh;
         padding-top: 2vh;
     }
 
     .store-right .store-content ul li {
-        font-size: 3.5vw;
+        font-size: 3.6vw;
     }
 
-    #deal {
-    padding-top: 0vw;
-    }
+   #deal {
+    padding-top: 12vw;
+}
     #deal h1 {
         font-size: 7vw;
     }
@@ -210,7 +210,7 @@
     }
 
     .footer-logo img {
-    width: 53%;
+    width: 80%;
     margin-bottom: 1vw;
     }
     

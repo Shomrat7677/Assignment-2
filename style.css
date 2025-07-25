@@ -226,14 +226,13 @@ nav ul li a span{
     font-weight: 700;
     margin-bottom: 1.5vw;
 }
-#deal p{
+#deal p {
     font-size: 1.6vw;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 7vw;
-    color: #464646;
+    color: #8d8d8d;
 }
-
 
 .deal-main{
     display: flex;
