@@ -1,181 +1,233 @@
-@media (max-width: 480px){
-    body{
-        /* padding: 2vw 3.7vw; */
+@media (max-width: 480px) {
 
+
+    nav {
+        padding: 2vw 3vw;
     }
-    nav{
-        padding: 2vw 3.7vw;
-    }
-    nav .logo img{
+
+    nav .logo img {
         width: 50%;
     }
-    nav ul li{
+
+    nav ul li {
         display: none;
     }
-    nav ul .shoping{
+
+    nav ul .shoping {
         display: block
     }
+
     #banner {
-    height: 70vh;
+        height: 70vh;
     }
-    .banner-main{
-        flex-direction: column-reverse; 
+
+    .banner-main {
+        flex-direction: column-reverse;
         /* padding: 2vw 3.7vw; */
 
     }
-    .banner-main .right-side{
-        
-    width: 100%;
+
+    .banner-main .right-side {
+
+        width: 100%;
     }
-    .banner-main .right-side img{
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 3vh;
+
+    .banner-main .right-side img {
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 3vh;
     }
-    .banner-main .left-side{
+
+    .banner-main .left-side {
         width: 100%;
         padding: 2vw 3.7vw;
 
     }
-    .banner-main .left-side h1{
+
+    .banner-main .left-side h1 {
         width: 70%;
         font-size: 4vh;
     }
-    .banner-main .left-side p{
+
+    .banner-main .left-side p {
         width: 96%;
         font-size: 2vh;
         line-height: 2.7vh;
     }
+
     #plant {
-    padding-top: 18vw;
+        padding-top: 18vw;
     }
+
     #plant h1 {
-    font-size: 6vw;
-    text-transform: capitalize;
+        font-size: 6vw;
+        text-transform: capitalize;
     }
+
     #plant p {
-    font-size: 21px;
+        font-size: 21px;
     }
 
     .plant-main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 35px;
-    grid-row-gap: 35px;
-    padding: 2vw 3.7vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 35px;
+        grid-row-gap: 35px;
+        padding: 2vw 3.7vw;
     }
 
     .plant-main .card h3 {
-    font-size: 4.2vw;
-    margin-top: 3vh;
+        font-size: 4.2vw;
+        margin-top: 3vh;
     }
 
     .plant-main .card h5 {
-    font-size: 3.6vw;
-    margin-top: .6vh;
+        font-size: 3.6vw;
+        margin-top: .6vh;
     }
+    
 
     .plant-main .card button {
-    font-size: 4.5vw;
-    border: none;
-    padding: 2.6vw;
-    margin-top: 3vh;
+        font-size: 4.5vw;
+        border: none;
+        padding: 2.6vw;
+        margin-top: 3vh;
     }
 
     .store-main {
-    flex-direction: column;
-    padding: 2vw 3.7vw;
+        flex-direction: column;
+        padding: 2vw 3.7vw;
     }
 
     .store-left {
         width: 100%;
         position: relative;
     }
+
     .store-left .badge {
         display: none;
     }
+
     .store-right {
-    width: 100%;
+        width: 100%;
     }
 
     .store-right h1 {
-    font-size: 3.4vh;
-    line-height: 3.9vh;
+    font-family: "Noto Serif", serif;
+    font-size: 5.77vw;
+    width: 70%;
+    line-height: 3.9vw;
+    font-weight: 700;
     }
+
     .store-right .store-content ul {
-    padding-left: 3.5vh;
-    padding-top: 1vh;
-}
+        padding-left: 3.5vh;
+        padding-top: 2vh;
+    }
 
     .store-right .store-content ul li {
-    font-size: 3.2vw;
+        font-size: 3.5vw;
     }
 
+    #deal {
+    padding-top: 0vw;
+    }
     #deal h1 {
-    font-size: 7vw;
+        font-size: 7vw;
     }
 
-    #deal p {
-    font-size: 20.5px;
-    }
+  #deal p {
+    font-size: 20px;
+}
 
     .deal-main {
-    flex-direction: column;
-    padding: 2vw 3.7vw;
+        flex-direction: column;
+        padding: 2vw 3.7vw;
     }
 
     .deal-main .deal-left {
-    width: 100%;    
+        width: 100%;
     }
+
     .deal-main .deal-right {
-    width: 100%;  
-    margin-top: 3.5vh;  
+        width: 100%;
+        margin-top: 3.5vh;
     }
 
     .overflow h2 {
-    font-size: 4.5vw;;
+        font-size: 4.5vw;
+        ;
     }
 
     .overflow a {
-    font-size: 3.4vw;
+        font-size: 3.4vw;
     }
 
     .deal-right .overflow h2 {
-    font-size: 4.5vw;
+        font-size: 4.5vw;
     }
 
     .deal-right .overflow a {
-    font-size: 3.5vw;
+        font-size: 3.5vw;
     }
 
     #contact {
-    height: 25vh;
+        height: 25vh;
     }
 
     .contact-main h1 {
-    font-size: 5vw;
-    margin-bottom: 5vw;
+        font-size: 5vw;
+        margin-bottom: 7vw;
     }
 
     .input-box input {
-    padding: 6vw;
-    width: 60vw;
-    height: 3vw;
-    max-width: 80vw;
-    border: none;
-    outline: none;
-}
+        padding: 6vw;
+        width: 60vw;
+        height: 3vw;
+        max-width: 80vw;
+        border: none;
+        outline: none;
+    }
+
     .input-box input::placeholder {
         font-size: 5vw;
         text-align: start;
-        padding: vw 7vw;
+        padding: 1 7vw;
     }
 
     .input-box button {
-  font-size: 4vw;
-}
+        font-size: 4vw;
+    }
+    footer {
+        width: 100%;
+        height: 60vh;
+        margin-bottom: 6vh;
+    }
+    .footer-main {
+        flex-direction: column;
+        padding: 3vh 5vw;
+    }
 
+    .footer-logo img {
+    width: 53%;
+    margin-bottom: 1vw;
+    }
+    
+    .footer-logo p {
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-bottom: 1vh;
+    }
 
-
+    .footer-menu-1 ul li{
+        font-size: 5vw;
+        margin-top: 3vh;
+        color: #6b6b6b;
+    }
+    .social-media {
+    gap: 8.3vw;
+    margin-top: 4vh;
+    /* margin-bottom: 5vh; */
+    }
 }

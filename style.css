@@ -19,10 +19,11 @@ nav ul li:first-child{
 }
 
 nav ul li{
-    font-family: "Montserrat", sans-serif;
+        font-family: "Inter", sans-serif;
+
     font-size: 18px;
     font-weight: 400;
-    color: black;
+    color: #6b6b6b;
 }
 
 nav ul li i {
@@ -34,8 +35,12 @@ nav ul li i{
     margin-right: 10px;
 }
 
+.shoping span{
+        font-family: "Inter", sans-serif;
 
+    font-weight: 600;
 
+}
 nav ul li a span{
     margin-right: 10px;
 }
@@ -161,16 +166,16 @@ nav ul li a span{
 
 .store-left .badge {
     position: absolute;
-    top: -8vw;
-    right: -8vw;
-    width: 55%;
+    top: -10vw;
+    right: -9vw;
+    width: 53%;
 }
 .store-left img{
     width: 100%;
 }
 
 .store-right{
-    width: 50%;
+    width: 49%;
 }
 
 .store-right .store-content{
@@ -179,6 +184,7 @@ nav ul li a span{
 .store-right h1{
     font-family: "Noto Serif", serif;
     font-size: 3.4vw;
+    width: 70%;
     line-height: 3.9vw;
     font-weight: 700;
 }
@@ -187,7 +193,7 @@ nav ul li a span{
     text-align: justify;
       list-style-type: disc;
       padding-left: 2.5vw;
-      padding-top: 1vw;
+      /* padding-top: 1vw; */
 }
 
 .store-right .store-content li::marker{
@@ -196,11 +202,12 @@ nav ul li a span{
     color: #E95A08;
 }
 
-.store-right .store-content ul li{
-     display: list-item;
-     font-size: 1.2vw;
+.store-right .store-content ul li {
+    display: list-item;
+    width: 100%;
+    font-size: 1.66vw;
     font-family: "Inter", sans-serif;
-
+    margin-top: 1.66vw;
 }
 
 
@@ -391,6 +398,10 @@ footer{
     font-size: 1.1vw;
     color: #464646;
     font-weight: 400;
+}
+
+.footer-menu-1 ul li:hover{
+    text-decoration: underline;
 }
 
 .social-media{
